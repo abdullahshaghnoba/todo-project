@@ -1,0 +1,89 @@
+.header {
+    background-color: #7a5050e6;
+}
+
+.image {
+    border-radius: 19px;
+    margin: 25px 25px;
+    float: left;
+}
+
+.navHome {
+    margin: 10px 20px 10px 500px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navAbout {
+    margin: 10px 20px 10px 200px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nv {
+    position: relative;
+    bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    top: 25px;
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(135 97 97);
+   color: rgb(0, 0, 0);
+   text-align: center;
+}
+.myimage {
+    border: 1px solid #ddd;
+    border-radius: 500px;
+    width: 230px;
+    margin-left: 20px;
+    bottom: 250px;
+    position: relative;
+}
+.myName {
+    font-size: 50px;
+    font-style: italic;
+    background-color: #af9999b8;
+    text-align: center;
+    font-family: fantasy;
+}
+.infoAboutMe {
+    font-size: 50px;
+    font-style: italic;
+    background-color: #af9999b8;
+    text-align: center;
+    font-family: math;
+}
+.contactme {
+        font-size: 25px;
+        text-align: center;
+        font-style: oblique;
+        font-weight: bold;
+        bottom: 250px;
+        font-family: sans-serif;
+        position: relative;
+}
+.formstyle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 30px;
+    bottom: 250px;
+    position: relative;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
