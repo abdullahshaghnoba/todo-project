@@ -4,34 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="reset" href="./reset.css"/>
+    <link rel="stylesheet" href="./styleshee.css"/>
     <title>To do list</title>
 </head>
 <body>
-    <header>
-        <img src="/assets/logo.png"/>
+    <header class="header">
+        <img class="image" src="/assets/logo.png"/>
         <h1>To do list</h1>
-        <nav>
-            <a href="/index.html">home</a>
+        <nav class="nv">
+            <a class="navHome" href="/index.html">home</a>
+            <a class="navAbout" href="/about.html">about us</a>
         </nav>
     </header><br>
     <br>
     <main>
         <section>
-            <img src="/assets/de26ab68-6398-4289-ac2f-0c8aa4b8d723.jpg"><br>
-            <p>name:Abdullah</p>
-            <p> information:web developer</p>
+            <p class="myName">Abdullah</p>
+            <p class="infoAboutMe">web developer</p>
+            <img class="myimage" src="/assets/de26ab68-6398-4289-ac2f-0c8aa4b8d723.jpg"><br>
         </section>
         <section>
-            <p>To get started fill your information below</p>
-            <form>
+            <p class="contactme">Contact Me</p>
+            <form class="formstyle">
                 
-                <label>name:</label>
+                <label>Full Name:</label>
                 <input type="text"><br>
                 <label>email:</label>
                 <input type="email"><br>
+                <label>Phone:</label>
+                <input type="tel"><br>
                 <label>message:</label>
                 <input type="text"><br>
-                <button>submit</button>
+                <button class="submit">submit</button>
             </form>
         </section>
     </main><br>

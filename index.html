@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="reset" href="./reset.css"/>
+    <link rel="stylesheet" href="./stylesheet.css"/>
+    <script src="https://kit.fontawesome.com/4f7fe5e387.js" crossorigin="anonymous"></script>
     <title>To do list</title>
 </head>
 <body>
-    <header>
-        <img src="/assets/logo.png"
-        <h1>To do list</h1>
-        <nav>
-            <a href="/index.html">home</a>
-            <a href="/about.html">about</a>
+    <header class="header">
+        <img class="image" src="/assets/logo.png"/>
+        <h1>ToDo List</h1>
+        <nav class="nv">
+            <a class="navHome" href="/index.html">home</a>
+            <a class="navAbout" href="/about.html">about us</a>
         </nav>
     </header><br>
     <br>
@@ -20,27 +23,27 @@
         <section>
             <table>
                 <tr>
-                    <th>tasks</th>
+                    <th>List</th>
                     <th>status</th>
                 </tr>
                 <tr>
-                    <td>task1</td>
-                    <td>status1</td>
+                    <td>Learn JS</td>
+                    <td class="tdbackground1">On schedule</td>
                 </tr>
                 <tr>
-                    <td>task2</td>
-                    <td>status2</td>
+                    <td>Create HTML page</td>
+                    <td class="tdbackground">Done</td>
                 </tr>
                 <tr>
-                    <td>task3</td>
-                    <td>status3</td>
+                    <td>Watch the match</td>
+                    <td class="tdbackground">canceled</td>
                 </tr>
             </table>
         </section>
-    </main><br>
+    </main>
     <br>
     <footer>
-        &copy;
+        &copy; <p>2023 ASAC All Rights Reserved</p>
         <p>owner AShaghnoba</p>
     </footer>
 </body>
