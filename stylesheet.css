@@ -48,6 +48,9 @@ table, th, td {
 .tdbackground1 {
     background-color: rgb(21, 255, 0);
 }
+.tdbackground2 {
+    background-color: rgb(0, 255, 234);
+}
 footer {
     position: fixed;
    left: 0;
